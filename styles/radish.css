@@ -1,12 +1,11 @@
 body {
-	background: radial-gradient(#b0ffe8, #bdfdd7, #98336b);
+	background: radial-gradient(circle, #99f5da, #a3d3f6, #f290c6);)
 }
 
 .container {
 	display: grid;
   	grid-template-rows: repeat(16, 1fr);
   	grid-template-columns: repeat(16, 1fr);
-  	background: radial-gradient(#b0ffe8, #bdfdd7, #98336b);
   	width: 100vw;
   	height: 100vh;
 
@@ -29,6 +28,19 @@ body {
 	grid-row: 15 / 17;
 	grid-column: 7 / 11;
 	background-color: blue;
+}
+.buttons {
+	background-color: rgba(230, 83, 216, 1);
+	color: #043f3f;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 20%;
 }
 
 .strip-title {
@@ -55,5 +67,3 @@ body {
 	width: 150px;
   	height: 81px;
 }
-
-background: radial-gradient(#b0ffe8, #bdfdd7, #98336b);
